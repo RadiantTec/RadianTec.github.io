@@ -1,78 +1,16 @@
-body {
-    
-    background:linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
-}
+<html>
 
-.flex-container {
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="splash.css">
+</head>
 
-    height: 50%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.coloum{
-    width: auto; 
-    height: auto;  
-}
-
-.flex-item {
-    font-family: "Lucida Console", "Courier New", monospace;
-    text-transform: uppercase;
-    padding: 10%;
-    width: 60%;
-    height: 20%;
-    margin: 10px;
-    border: 10px;
-    border-color: Tomato;
-    line-height: 120%;
-    color: white;
-    font-weight: bold;
-    font-size: 2em;
-    text-align: center;
-} 
+<body class="flex-container">
+<div class="coloum">
+    <h3 class="flex-item">Application is available for App</h3>
+    <div class="flex-item"><div class="loader"></div></div>    
+</div>
+</body>
 
 
-
-.loader {
-    border: 5px solid rgba(18, 65, 145, 255);
-    border-radius: 50%;
-    border-top: 5px solid #ffffff;
-    width: 40px;
-    height: 40px;
-    -webkit-animation: spin 1s linear infinite;
-    /* Safari */
-    animation: spin 1s linear infinite;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0px;
-    bottom: 0;
-}
-
-/* Safari */
-@-webkit-keyframes spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-    }
-
-    100% {
-        -webkit-transform: rotate(360deg);
-    }
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-.center {
-    border: none !important;
-    text-align: center;
-}
+</html>
